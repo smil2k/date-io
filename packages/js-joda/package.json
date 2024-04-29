@@ -13,9 +13,6 @@
     "@js-joda/core": {
       "optional": true
     },
-    "@js-joda/locale": {
-      "optional": true
-    },
     "@js-joda/locale_en-us": {
       "optional": true
     }
