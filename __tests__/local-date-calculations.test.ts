@@ -146,7 +146,15 @@ describe("DateTime calculations", () => {
     );
     expect(updatedTime).toBe("2018-05-30");
   });
-
+  
+  localDateutilsTest("setMonth13", (date, utils, lib) => {
+    const updatedTime = utils.formatByString(
+      utils.setMonth(date, 13),
+      formats.date[lib]
+    );
+    expect(updatedTime).toBe("2019-01-30");
+  });
+  
   localDateutilsTest("setYear", (date, utils, lib) => {
     const updatedTime = utils.formatByString(
       utils.setYear(date, 2011),
