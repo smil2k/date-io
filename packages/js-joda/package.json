@@ -6,9 +6,8 @@
   "module": "build/index.esm.js",
   "typings": "build/index.d.ts",
   "peerDependencies": {
-    "@js-joda/core": "^3.2.0",
-    "@js-joda/locale": "^3.2.2",
-    "@js-joda/locale_en-us": "^3.2.2"
+    "@js-joda/core": ">=3.2.0",
+    "@js-joda/locale_en-us": ">=3.2.2"
   },
   "peerDependenciesMeta": {
     "@js-joda/core": {
@@ -25,8 +24,8 @@
     "@date-io/core": "^3.0.0"
   },
   "devDependencies": {
-    "@js-joda/core": "^3.2.0",
-    "@js-joda/locale_en-us": "^3.2.2",
+    "@js-joda/core": ">=3.2.0",
+    "@js-joda/locale_en-us": ">=3.2.2",
     "rollup": "^2.0.2",
     "typescript": "^5.0.0"
   },
